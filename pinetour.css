@@ -1,0 +1,571 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*button {
+  cursor: pointer;
+}
+
+.HeroImage {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.Heroimage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.Herocontain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.tourlogo {
+  width: 101px;
+  height: 35px;
+}
+
+.tourpad {
+  padding-left: 117px;
+}
+
+.user {
+  width: 20px;
+  height: 20px;
+}
+
+.en {
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  border: white;
+  color: black;
+}
+
+.enpad {
+  padding-right: 118px;
+}
+
+.Herobutton {
+  display: flex;
+  gap: 24px;
+}
+
+.herotext:hover {
+  background-color: black;
+  border-radius: 24px;
+}
+
+.en:hover {
+  background-color: #3f4145;
+  color: white;
+}
+
+.user:hover {
+  background-color: #3f4145;
+  border-radius: 12px;
+}
+
+.herotext {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.userpad {
+  padding-top: 10px;
+}
+
+.firsttext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 99px;
+}
+
+.firsttext1 {
+  font-weight: 400;
+  font-size: 80px;
+  opacity: 0.6;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.firsttext2 {
+  font-weight: 400;
+  font-size: 250px;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.firsttext3 {
+  font-size: 64px;
+  font-weight: 400;
+  color: white;
+  font-family: "Hanuman", serif;
+}
+
+.Locadiv {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.Loca {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardcontain {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cardbox {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px 0px #29728b40, -8px -8px 0px 0px #1f72aa75;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.texts {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.cardbox:hover {
+  opacity: 0.8;
+}
+
+.cardbox:hover .cardboxtext {
+  opacity: 1;
+}
+
+.cardboxtext {
+  font-weight: 400;
+  font-size: 28px;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  opacity: 0.6;
+}
+
+.img {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.roadmap {
+  width: 100%;
+  height: 1022px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.roadmapimg {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.roadheader {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+  gap: 10px;
+}
+
+.roadmapheader1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.roadmapheader2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.borderdiv {
+  width: 1700px;
+  height: 640px;
+  padding-left: 220px;
+  padding-top: 120px;
+}
+
+.bordercontainer {
+  width: 100%;
+  height: 640px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.border {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #eee9d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.bordertext {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 30px;
+  gap: 5px;
+}
+
+.icontext {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  flex-direction: row;
+  width: 117px;
+  height: 18px;
+  gap: 5px;
+}
+
+.day {
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  color: black;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.daytext {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.border2 {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #8bb8c1cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.border3 {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #aad8d7cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.border4 {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #8bc0bdcc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.border5 {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #97cce0cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.sukhbaatar-pin {
+  width: 369px;
+  height: 369px;
+  display: flex;
+  display: none;
+  justify-content: end;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+
+.border:hover .sukhbaatar-pin {
+  display: flex;
+}
+
+.monastry-pin {
+  width: 369px;
+  height: 369px;
+  display: flex;
+
+  justify-content: end;
+  position: absolute;
+  left: 60%;
+  display: none;
+}
+
+.border2:hover .monastry-pin {
+  display: flex;
+}
+
+.khorgo-pin {
+  width: 369px;
+  height: 369px;
+  display: flex;
+  display: none;
+  justify-content: end;
+  position: absolute;
+  left: 50%;
+}
+
+.border3:hover .khorgo-pin {
+  display: flex;
+}
+
+.terkh-pin {
+  width: 369px;
+  height: 369px;
+  display: flex;
+  display: none;
+  justify-content: end;
+  position: absolute;
+  left: 40%;
+  bottom: 60%;
+}
+
+.border4:hover .terkh-pin {
+  display: flex;
+}
+
+.khuvsgul-pin {
+  width: 369px;
+  height: 369px;
+  display: flex;
+  left: 60%;
+  justify-content: end;
+  position: absolute;
+  bottom: 60%;
+  display: none;
+}
+
+.border5:hover .khuvsgul-pin {
+  display: flex;
+}
+
+.pricelootdiv {
+  width: 100%;
+  height: 1120px;
+  position: relative;
+}
+
+.pricelootimg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.boxdiv {
+  display: flex;
+  flex-direction: row;
+  padding-top: 79px;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.containericon {
+  width: 14px;
+  height: 14px;
+}
+
+.hatesize {
+  width: 36px;
+  height: 36px;
+}
+
+.priceheader {
+  display: flex;
+  padding: 24px;
+  gap: 10px;
+  align-items: center;
+}
+
+.lootertext {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.checksize {
+  width: 20px;
+  height: 20px;
+}
+
+.introd {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 25px;
+  justify-content: center;
+  padding-left: 24px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3f4145;
+}
+
+.pricetext {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.ess {
+  font-weight: 500;
+  font-size: 16px;
+  color: #919191;
+}
+
+.price {
+  display: flex;
+  padding-left: 24px;
+  align-items: start;
+  flex-direction: column;
+}
+
+.includespad {
+  padding-left: 40px;
+}
+
+.pricebutton {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 24px;
+  border: none;
+}
+
+.box:hover {
+  box-shadow: 8px 8px 0px 0px #8bb8c1cc, -8px -8px 0px 0px #aad8d7cc;
+}
+
+.box:hover button {
+  background-color: black;
+  color: white;
+}
+
+.border:hover {
+  border: 3px solid white;
+}
+
+.border2:hover {
+  border: 3px solid white;
+}
+
+.border3:hover {
+  border: 3px solid white;
+}
+
+.border4:hover {
+  border: 3px solid white;
+}
+
+.border5:hover {
+  border: 3px solid white;
+}
+
+.socialbutton {
+  width: 167px;
+  height: 44px;
+  border-radius: 24px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialicons {
+  width: 24px;
+  height: 24px;
+}
+
+.socialdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 185px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.faceig {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.socialbutton:hover {
+  box-shadow: 2px 2px 0px 0px black;
+
+  color: white;
+  background-color: #3f4145;
+}

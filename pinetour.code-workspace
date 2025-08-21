@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "pinetour",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "pinetour"
+  }
+}
